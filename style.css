@@ -1,18 +1,87 @@
-/*1st row*/
-
-h1{
-    text-align: center;
-    background-color: gray;
+.page {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;             
+    background-color: white;
+    /*reminder page controls all with in the page dont move it*/
 }
-h2{
+.header {
+    background-color: #ebebeb;
     text-align: center;
-    background-color: gray; 
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-.row:after {
-    content: "";
-    display: table;
+.nav {
+    overflow: hidden;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+  /*starts box in boxes*/
+.section {
+    float: left;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    height: 250px;
+}
+/*use header in title*/
+    .article {
+        background-color: #777;
+        float: left;
+        width: 90%;
+        text-align: center;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 26px;
+        color: #ebebeb;
+        padding: 10px;
+    }
+    .headerh1h2h3 {
+        background-color: #ebebeb;
+        float: left;
+        text-align: center;
+        padding: 9px;
+        margin-top: -150px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+        margin-left: 43px;
+        color: #777;
+        height: 10%;
+        width: 80%;
+    }
+    .P {
+        background-color: #ebebeb;
+        float: left; 
+        text-align: center;
+        padding: 9px;
+        margin-top: -100px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+        margin-left: 43px;
+        color: #777;
+        height: 10%;
+        width: 80%;
+    }
+  .aside {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 250px;
+    margin-left: 8px;
+    text-align: center;
+    background-color: #ebebeb;
+  }
+  .footer {
+    float: left;
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 98%;
     clear: both;
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+}
