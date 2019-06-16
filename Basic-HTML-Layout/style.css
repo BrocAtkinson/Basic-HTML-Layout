@@ -1,0 +1,35 @@
+.page {
+    width: 900px;
+    background-color: gray;
+}
+.Header {
+    height: 75px;
+    background-color: #ebebeb;    /* Medium blue */
+  }
+  
+  .Nav {
+    height: 75px;
+    background-color: #ebebeb;    /* Red */
+  }
+  
+  .Section {
+    height: 75px;
+    background-color: #F5CF8E;    /* Yellow */
+  }
+  .h1,h2,h3{
+    background-color: white;
+    width: 20px;
+    height: 25px;
+  }
+  .P{
+    height: 200px;
+    background-color: #D6E9FE;    /* Light blue */
+  }
+  .Aside {
+    height: 200px;
+    background-color: #ebebeb;    /* Light blue */
+  }
+  .Footer {
+    height: 200px;
+    background-color: #ebebeb;    /* Light blue */
+  }
